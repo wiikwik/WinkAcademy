@@ -1,0 +1,81 @@
+.test li {
+  display: inline;
+  color: #008000;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px;
+  border-bottom: green;
+  padding-left: 5%;
+}
+
+body {
+  color: blue;
+}
+
+.black-border {
+  border: 5px solid black;
+}
+
+#green-background {
+  background-color: green;
+  color: black;
+}
+
+.link {
+  border: 2px solid green;
+  font: normal 14px Helvetica;
+  color: black;
+}
+
+.steden {
+  color: green;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-stretch: semi-expanded;
+  background-color: #333;
+  margin: 0;
+}
+
+.dorpen {
+  background-color: grey;
+  background-position: left;
+  color: azure;
+  font-weight: bold;
+}
+
+#yellowbackground {
+  background-color: yellow;
+  border: 3px solid green;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+
+.box-2 {
+  border: 3px dotted green;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.categories {
+  border: 1px grey solid;
+  padding: 10px;
+  border-radius: 15px;
+  /* background-color: grey; */
+  width: 80%;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+    body {
+      background-color: green;
+      color: black;
+      font-size: smaller;
+      line-height: 90%;
+    }
