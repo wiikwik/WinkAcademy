@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viks pagina met forms</title>
+    <link rel="stylesheet" type="text/css" href="stylesForms.css">
+</head>
+
+<body>
+    <header>
+        <h2>Viks contacts pagina</h2>
+    </header>
+    <main>
+        <div class="inputs">
+            <h3>Enter the contacts here</h3>
+            <form name="contact" method="POST" data-netlify="true">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <br>
+                <label for="phone">Enter your phone number:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+                <br>
+                <label for="age">Enter your age:</label><br>
+                <input type="number" id="age" name="age"><br>
+                <br>
+                <label for="birthday">Birthday:</label><br>
+                <input type="date" id="birthday" name="birthday"><br>
+                <br>
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="female" name="Female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="male" name="Male">
+                <label for="male">Male</label><br>
+                <br>
+                <label for="cuisine"> Favorite cuisine:</label><br>
+                <input type="checkbox" id="french" name="french">
+                <label for="french"> French</label><br>
+                <input type="checkbox" id="spanish" name="spanish">
+                <label for="spanish"> Spanish</label><br>
+                <input type="checkbox" id="italian" name="italian">
+                <label for="italian"> Italian</label>
+                <br>
+                <label for="favcolor">Select your favorite color:</label>
+                <input type="color" value="#009900" id="color"><br>
+                <br>
+                <textarea rows="10" cols="30">Enter your comments </textarea><br>
+                <br>
+                <label for="myfile">Upload a file:</label>
+                <input type="file" id="myfile" name="myfile"><br>
+                <br>
+                <label for="homepage">Add your page:</label>
+                <input type="url" id="homepage" name="homepage"><br>
+                <br>
+                <input name="submit button" type="submit" />
+                <input name="reset button" type="reset">
+            </form>
+        </div>
+        <br>
+        <a href="index.html" target="_blank">Back to index page</a>
+    </main>
+</body>
+
+</html>
