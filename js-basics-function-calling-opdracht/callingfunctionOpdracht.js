@@ -1,4 +1,4 @@
-// 1.checks if someone is an adult.
+// 1.Checks if someone is an adult.
 
 const ageCheck = function(age) {
     if (age > 18) {
@@ -10,16 +10,17 @@ const ageCheck = function(age) {
 console.log(ageCheck(20));
 
 const adultCheck = function(age) {
-    if (ageCheck ="true"){
+    if (ageCheck(age)) {
         return "Hello there"
     } else {
         return "Hey kiddo"
     }
 };
-console.log();
+console.log(adultCheck(11));
+console.log(adultCheck(30));
 
 
-// VAT calculations
+// 2. VAT calculations
 const sumVat= function(input) {
     var sum=10
     console.log("sum = " + sum);
