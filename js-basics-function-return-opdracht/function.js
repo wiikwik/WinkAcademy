@@ -3,10 +3,7 @@
 const valueCheck = function(number1) {
   const value = number1;
   if (value>100) {
-  // return; -returns undefines
   return "true"; 
-  // returns the value
-  // return 6; - useless, as the previous return stops function.
 }
 return "false";
 }
