@@ -21,11 +21,7 @@ console.log(adultCheck(30));
 
 
 // 2. VAT calculations
-const sumVat= function(input) {
-    var sum=10
-    console.log("sum = " + sum);
-    console.log("VAT = " + sum * 0.2);
-    console.log("total = " + sum * 1.2);
-}
- 
-sumVat();
+const sumVat= function(sum, VAT) {
+    return sum * (VAT / 100);
+};
+console.log(sumVat(1,20));
