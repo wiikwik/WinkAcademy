@@ -1,0 +1,31 @@
+#home {
+  background: lightgrey;
+  padding: 5px;
+  width: 100px;
+  margin: 4px;
+  border: 2px black solid;
+}
+
+#green {
+  background: lightgreen;
+  padding: 5px;
+  width: 100px;
+  margin: 4px;
+  border: 2px black solid;
+}
+
+#yellow {
+  background: yellow;
+  padding: 5px;
+  width: 100px;
+  margin: 4px;
+  border: 2px black solid;
+}
+
+#blue {
+  background: lightblue;
+  padding: 5px;
+  width: 100px;
+  margin: 4px;
+  border: 2px black solid;
+}
