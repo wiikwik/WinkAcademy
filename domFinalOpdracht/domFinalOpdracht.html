@@ -8,30 +8,25 @@
     <title>ViksDomFinalOpdracht</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="domFinalOpdracht.js"></script>
 
 </head>
 
-<body>
-     <p>Colors selection:</p>
+<body class="backgound">
 
+    <h2 class="active">Colors selection</h2>
+    <br>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
-    <ul id="myColors">
-        <li id="home">home</li>
-        <li id="green">green</li>
-        <li id="yellow">yellow</li>
-        <li id="blue">blue</li>
-    </ul>
 
 
-
-
-
-    <script src="domFinalOpdracht.js"></script>
-
-
+    <div id="list">
+        <p id="home" onclick="Home()">Home</p>
+        <p id="green" onclick="Green()">Green</p>
+        <p id="yellow" onclick="Yellow()">Yellow</p>
+        <p id="blue" onclick="Blue()">Blue</p>
+    </div>
 
 
 </body>
